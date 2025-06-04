@@ -1,0 +1,44 @@
+/* WalletConnector.css */
+
+.wallet-connector-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.wallet-connector-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.wallet-connector-box h2,
+.wallet-connector-box h3 {
+    margin-bottom: 15px;
+}
+
+.wallet-connector-box input {
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.wallet-connector-box button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.wallet-connector-box button:hover {
+    background-color: #0056b3;
+}
